@@ -59,11 +59,11 @@ more augmentation can be exlored
   
   
 ## Environment
-Python 3.5  
+* Python 3.5  
 All code was run on Amazon EC2 Deep Learning AMI version 7 (ami-139a476c)  
 I also tested this on my local Windows 10 PC with the following libraries:  
-Numpy 1.13.1  
-Keras 2.0.5  
-Pandas 0.20.3  
-OpenCV 3.2.0  
-TensorFlow 1.2.1 (with GPU support)  
+* Numpy 1.13.1  
+* Keras 2.0.5  
+* Pandas 0.20.3  
+* OpenCV 3.2.0  
+* TensorFlow 1.2.1 (with GPU support)  
