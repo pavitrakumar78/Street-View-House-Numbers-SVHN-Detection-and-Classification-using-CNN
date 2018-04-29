@@ -38,25 +38,14 @@ digit accuracies of 71%, 65%, 84% and 98% for the 1st, 2nd, 3rd and 4th digit re
   
 ## Examples where the detection and classification pipeline did not work well:  
   
-![not_working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_1017.png)  
-Predicted: 32  
-Actual: 863  
-![not_working_img2](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_10271.png)  
-Predicted: 6  
-Actual: 7  
-![not_working_img3](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_12285.png)  
-Predicted: 8  
-Actual: 26  
-![not_working_img4](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_2532.png)  
-Predicted: 1  
-Actual: 184  
-![not_working_img5](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_4350.png)  
-Predicted: 1410  
-Actual:44  
-![not_working_img6](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_5772.png)  
-Predicted: 27  
-Actual: 6  
-
+| Image  | Predicted value | Actual value |
+| ------------- | ------------- | ------------- |
+| ![not_working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_1017.png)  | 32 | 863 |
+| ![not_working_img2](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_10271.png)   | 6 | 7 |
+| ![not_working_img3](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_12285.png)   | 8 | 26 |
+| ![not_working_img4](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_2532.png)  | 1 | 184 |
+| ![not_working_img5](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_4350.png)   | 1410 | 44 |
+| ![not_working_img6](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_5772.png)   | 27 | 6 |
 
 ## Improvements that can be made:  
 * I did not want to use YOLO for such a simple task, but detection CNN could be improved  
