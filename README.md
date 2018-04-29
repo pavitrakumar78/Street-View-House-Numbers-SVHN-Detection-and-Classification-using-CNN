@@ -72,7 +72,7 @@ Weights for both CNNs and .h5 files for train and test datasets are available in
    
 
 ## Environment
-* Python 3.5  
+Python 3.5  
 All code was run on Amazon EC2 Deep Learning AMI version 7 (ami-139a476c)  
 I also tested this on my local Windows 10 PC with the following libraries:  
 * Numpy 1.13.1  
