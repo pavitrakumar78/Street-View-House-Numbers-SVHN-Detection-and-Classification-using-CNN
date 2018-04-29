@@ -26,11 +26,10 @@ digit accuracies of 71%, 65%, 84% and 98% for the 1st, 2nd, 3rd and 4th digit re
 
 ## Examples where the detection and classification pipeline worked well:  
   
-| Image  | Predicted and Acutal value |
-| ------------- | ------------- |
-| ![working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_10045.png)   | Predicted: 1522  
-Actual: 1502    |
-| Content Cell  | Content Cell  |
+| Image  | Predicted value | Actual value |
+| ------------- | ------------- | ------------- |
+| ![working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_10045.png)   | Predicted: 1522  | Actual: 1502  |
+| Content Cell  | Content Cell  | asd |
   
 ![working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_10045.png)  
 Predicted: 1522  
