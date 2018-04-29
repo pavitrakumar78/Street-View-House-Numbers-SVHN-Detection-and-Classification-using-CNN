@@ -25,6 +25,7 @@ digit accuracies of 71%, 65%, 84% and 98% for the 1st, 2nd, 3rd and 4th digit re
 8. Output digits  
 
 ## Examples where the detection and classification pipeline worked well:  
+The bounding boxes in the images below are coordinates predicted by the detection CNN and the number prediction is done by the classification CNN.  
   
 | Image  | Predicted value | Actual value |
 | ------------- | ------------- | ------------- |
@@ -37,7 +38,8 @@ digit accuracies of 71%, 65%, 84% and 98% for the 1st, 2nd, 3rd and 4th digit re
   
   
 ## Examples where the detection and classification pipeline did not work well:  
-  
+The bounding boxes in the images below are coordinates predicted by the detection CNN and the number prediction is done by the classification CNN.  
+
 | Image  | Predicted value | Actual value |
 | ------------- | ------------- | ------------- |
 | ![not_working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/wrongly%20classified%20examples/TEST_ID_1017.png)  | 32 | 863 |
