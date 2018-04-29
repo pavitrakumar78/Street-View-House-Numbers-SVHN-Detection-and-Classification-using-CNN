@@ -55,16 +55,16 @@ more augmentation can be exlored
 * Same can be done for classification CNN - but it was not done in this project  
 
 ## Project files:
-`construct_datasets.py`
+`construct_datasets.py`  
 Uses the images downloaded from [SVHN dataset] website along with the .mat files describing the bounding box to build a single table for each test and train for easy use in other files. If you don't want to run this file, download it .h5 files from the google drive link below.
   
-`train_digit_classification.py`
+`train_digit_classification.py`  
 Uses the processed .h5 files in data folder to train a classification CNN.  
   
-`train_digit_detection.py`
+`train_digit_detection.py`  
 Uses the processed .h5 files in data folder to train a detection CNN.  
   
-`combi_models.py`
+`combi_models.py`  
 After training both networks, this file uses both networks to implement all the steps described in the pipeline section above.  
   
 ## Download weights and processed datasets from here:
