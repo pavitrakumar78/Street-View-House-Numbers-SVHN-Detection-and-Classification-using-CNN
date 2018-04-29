@@ -28,28 +28,13 @@ digit accuracies of 71%, 65%, 84% and 98% for the 1st, 2nd, 3rd and 4th digit re
   
 | Image  | Predicted value | Actual value |
 | ------------- | ------------- | ------------- |
-| ![working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_10045.png)   | Predicted: 1522  | Actual: 1502  |
-| Content Cell  | Content Cell  | asd |
+| ![working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_10045.png)   | 1522  | 1502  |
+| ![working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_10045.png)    | 135  | 135 |
+| ![working_img3](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_2458.png)   | 861 | 861 |
+| ![working_img4](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_2604.png)  | 348 | 348 |
+| ![working_img5](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_7141.png)   | 114 | 114 |
+| ![working_img6](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_7638.png)   | 23 | 23 |
   
-![working_img1](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_10045.png)  
-Predicted: 1522  
-Actual: 1502  
-![working_img2](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_1648.png)  
-Predicted: 135  
-Actual: 135  
-![working_img3](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_2458.png)  
-Predicted: 861  
-Actual: 861  
-![working_img4](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_2604.png)  
-Predicted: 348  
-Actual:  348  
-![working_img5](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_7141.png)  
-Predicted: 114  
-Actual: 23  
-![working_img6](https://github.com/pavitrakumar78/Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN/blob/master/correctly%20classified%20examples/TEST_ID_7638.png)  
-Predicted:  
-Actual:  
-
   
 ## Examples where the detection and classification pipeline did not work well:  
   
