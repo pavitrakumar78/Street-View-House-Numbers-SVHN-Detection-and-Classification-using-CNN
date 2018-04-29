@@ -1,7 +1,6 @@
 # Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN
 
-This is my (not very successful) attempt to do both detection and classification of numbers in SVHN
-dataset using 2 CNNs.
+This is my (not very successful) attempt to do both detection and classification of numbers in [SVHN dataset](http://ufldl.stanford.edu/housenumbers/) using 2 CNNs.
   
 This project contains 2 parts:  
 1. Using CNN to do bounding box regression to find the top, left, width and height of the bounding box
