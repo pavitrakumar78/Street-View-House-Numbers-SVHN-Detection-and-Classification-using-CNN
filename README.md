@@ -1,4 +1,4 @@
-# Street-View-House-Numbers-SVHN-Detection-and-Classification-using-CNN
+# Street View House Numbers (SVHN) Detection and Classification using CNN
 
 This is my (not very successful) attempt to do both detection and classification of numbers in [SVHN dataset](http://ufldl.stanford.edu/housenumbers/) using 2 CNNs.
   
