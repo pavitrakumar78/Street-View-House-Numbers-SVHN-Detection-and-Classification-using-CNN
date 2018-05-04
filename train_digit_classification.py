@@ -230,24 +230,4 @@ model.save_weights(os.path.join(root_dir,'cnn_models','digit_classification_cnn_
 
 #model.save(os.path.join(root_dir,'cnn_models','digit_classification_cnn_fullmodel.h5'))
 
-
-#from ec2 to local 
-#scp -i bdh-project.pem ubuntu@ec2-35-153-192-29.compute-1.amazonaws.com:/home/ubuntu/cnn/digit_classification_cnn_layers.json .
-#scp -i bdh-project.pem ubuntu@ec2-35-153-192-29.compute-1.amazonaws.com:/home/ubuntu/cnn/digit_classification_cnn_weights.h5 .
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-"""
-copy zip to ec2:
-
-    scp -i bdh-project.pem /cygdrive/c/Users/Pavitrakumar-PC/Desktop/cnn.zip ubuntu@ec2-35-153-192-29.compute-1.amazonaws.com:/home/ubuntu
-
-login to ec2:
-    
-    ssh ubuntu@ec2-35-153-192-29.compute-1.amazonaws.com -i bdh-project.pem
-    byobu
-    source activate tensorflow_p36
-    pip install --upgrade tables
-    
-"""
