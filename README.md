@@ -56,7 +56,7 @@ more augmentation can be exlored
 
 ## Project files:
 `construct_datasets.py`  
-Uses the images downloaded from [SVHN dataset] website along with the .mat files describing the bounding box to build a single table for each test and train for easy use in other files. If you don't want to run this file, download it .h5 files from the google drive link below.
+Uses the images downloaded from [SVHN dataset website](http://ufldl.stanford.edu/housenumbers/)  website along with the .mat files describing the bounding box to build a single table for each test and train for easy use in other files. If you don't want to run this file, download it .h5 files from the google drive link below.
   
 `train_digit_classification.py`  
 Uses the processed .h5 files in data folder to train a classification CNN.  
