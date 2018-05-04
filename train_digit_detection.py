@@ -123,8 +123,4 @@ model.save_weights(os.path.join(root_dir,'cnn_models','digit_detection_cnn_weigh
 
 #model.save(os.path.join(root_dir,'cnn_models','digit_detection_cnn_fullmodel.h5'))
 
-#from ec2 to local 
-#scp -i bdh-project.pem ubuntu@ec2-35-153-192-29.compute-1.amazonaws.com:/home/ubuntu/cnn/digit_detection_cnn_layers.json .
-#scp -i bdh-project.pem ubuntu@ec2-35-153-192-29.compute-1.amazonaws.com:/home/ubuntu/cnn/digit_detection_cnn_weights.h5 .
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
