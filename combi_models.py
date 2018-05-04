@@ -39,7 +39,7 @@ def process_labels(labels,max_digits):
     labels = np.array(tmp)   
     return labels
 
-root_dir = 'C:\\Users\\Pavitrakumar-PC\\Desktop\\CNN-SVHN Mini-Project'
+root_dir = ''
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~load data~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 train_data = pd.read_hdf(os.path.join(root_dir,'data','train_data_processed.h5'),'table')
