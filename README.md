@@ -70,9 +70,9 @@ After training both networks, this file uses both networks to implement all the 
 ## Download weights and processed datasets from here:
 Weights for both CNNs and .h5 files for train and test datasets are available in the link below:   
   
-CNN Weights: https://drive.google.com/open?id=1vv7vzqzGjjUqjcCZYeX_NaGrqSU1Ami2
-Dataset: https://drive.google.com/open?id=1KfVqQHjimQnXdzsCtQurwmTSpMe2mmA7
-  
+CNN Weights: https://drive.google.com/open?id=1vv7vzqzGjjUqjcCZYeX_NaGrqSU1Ami2  
+Dataset: https://drive.google.com/open?id=1KfVqQHjimQnXdzsCtQurwmTSpMe2mmA7  
+   
 ## Environment
 Python 3.5  
 All code was run on Amazon EC2 Deep Learning AMI version 7 (ami-139a476c)  
