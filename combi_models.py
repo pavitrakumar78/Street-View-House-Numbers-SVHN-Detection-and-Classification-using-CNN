@@ -213,6 +213,7 @@ def find_box_and_predict_digit(input_img):
     end_row = np.clip(int(scaled_box[0]+scaled_box[3]),1,input_img_shape[0])
     start_col = np.clip(int(scaled_box[1]),1,input_img_shape[1])
     end_col = np.clip(int(scaled_box[1]+scaled_box[2]),1,input_img_shape[1])
+    #need better logic to handle cases where the box is too thin
     if start_col-end_col==0:
         start_col -=1
     if start_row-end_row==0:
