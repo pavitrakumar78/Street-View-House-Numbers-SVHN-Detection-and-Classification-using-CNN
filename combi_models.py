@@ -42,6 +42,8 @@ def process_labels(labels,max_digits):
 root_dir = ''
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~load data~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print('loading data for testing')
+
 train_data = pd.read_hdf(os.path.join(root_dir,'data','train_data_processed.h5'),'table')
 
 train_data = train_data[(train_data['num_digits']!=6) & (train_data['num_digits']!=5)]
@@ -73,6 +75,8 @@ single_img_shape = test_images[0].shape
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~load models~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print('loading cnn models')
+
 #load digit detection model
 with open(os.path.join(root_dir,'cnn_models','digit_detection_cnn_layers.json'),'r') as json_data:
     model_dict = json.load(json_data)
@@ -89,6 +93,8 @@ classification_model.load_weights(os.path.join(root_dir,'cnn_models','digit_clas
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~do tests~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print('testing using cnn model')
+
 original_images = test_data['img']
 original_boxes = np.array(test_data[['top','left','width','height']]).copy()
 
@@ -190,6 +196,7 @@ print('individual digit accuracies:',digit_accs)
 #[ 0.70924537  0.65192102  0.84517067  0.9846931 ]
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~single image prediction~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+print('single image prediction results')
 
 def find_box_and_predict_digit(input_img):
     num_digits = 4
